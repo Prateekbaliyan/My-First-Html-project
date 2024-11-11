@@ -1,0 +1,242 @@
+<!-- 1.HTML DOCUMENT STRUCTURE -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- 2.Title -->
+    <title>CricketHUB</title>
+    <style>
+        /* Internal CSS FOR styling the page */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header ,nav{
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+        header{
+            background-color: #333;
+            color: white;
+        }
+        nav {
+            background-color: #555;
+            color: white;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+
+        nav ul li a {
+            color:white;
+            text-decoration: none;
+        }
+        #nav2{
+            padding: 10px;
+            margin: 10px;
+            border-radius: 18px;
+            width: fit-content;
+            
+            background-color: rgb(185, 131, 61);
+        }
+
+        .hero{
+            
+            text-align: center;
+           
+            color: #666;
+        }
+
+        main{
+            background-color: #a2b4c6;
+            border-radius: 8px;
+        }
+
+        .gallery{
+            display:inline-block;
+            margin: 8px;
+            border: 2px solid #555;
+           
+        }
+
+        .gallery .capt {
+            text-align: center;
+            font-size: 0.9em;
+            column-rule: #666;
+        }
+
+        h3{
+            color: #555;
+        }
+
+        .testimonials {
+            background-color: #f9f9f9;
+            padding: 50px;
+            text-align: center;
+        }
+
+        blockquote {
+            font-style: italic;
+            margin: 20px;
+            border-left: 5px solid #333;
+            padding-left: 20px;
+        }
+        #vdo
+        {
+            align-items: center;
+        }
+        footer {
+            padding: 20px;
+            margin: 10px;
+            border-radius: 8px;
+            background-color: #333;
+            color: white;
+            text-align: center;
+        }
+        
+    </style>
+
+</head>
+
+<div>
+    
+    <!--3. HEADER SECTION -->
+
+    <header>
+        <h1>CricketHub</h1>
+        <p>Welcome, To CricketHUB !!!...</p>
+        <nav>
+            <ul>
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/service.html" >Services</a></li>
+                <li><a href="/aboutus.html" >About us</a></li>
+                <li><a href="/contact.html">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+        <nav id="nav2">
+            <ul>
+                <li><a href="/login.html">Login</a></li>
+            </ul>
+        </nav>
+
+    <!--4. Hero Section -->
+    <section class="hero">
+        <h1>Welcome to CricketHub</h1>
+        <p>Your Ultimate Cricket Destination for Gear, Training, and More!</p>
+        <img src="/kit.jpg" alt="cricket" width="150">
+        
+    </section>
+
+
+    <!-- 7.Image Gallery -->
+
+
+    <h3 id="image">Things we provide:</h3>
+
+
+    <div class="gallery" >
+    <img src="/images/cricketkit.jpg" alt="kit"
+    width="150" height="150"   >
+    <figcaption class="capt">Cricket Kit</figcaption>
+    </div>
+
+
+    <div class="gallery">
+    <img src="/images/coach.jpg" alt="coach" width="150">
+    <figcaption class="capt">Coches Hiring</figcaption>
+</div>
+
+
+<div class="gallery">
+    <img src="/images/gearservice.jpg" alt="gear" width="150">
+    <figcaption class="capt">Gears Servicing</figcaption>
+</div>
+
+<div class="gallery">
+    <img src="/images/touranaments.jpg" alt="touranaments" width="150">
+    <figcaption class="capt">Touranaments</figcaption>
+
+</div>
+    
+
+    <!-- main section -->
+    <article>
+        <main >
+        <h2>Why use CricketHUB?? </h2>
+        <p>At CricketHub, we provide <strong>premium cricket gear</strong>, <em>expert coaching</em>, and a <strong>community</strong> for enthusiasts of all levels. Whether you are just starting or aiming to improve your game, we have everything you need!</p>
+    </article>
+    </main>
+
+    <!--5. about us section is hyperlinked on navigation bar -->
+
+    <!-- 6. services section with a Table is also hyperlinked  -->
+
+
+    <!-- 8. benefits are in why use cricket -->
+
+    <!-- 9.Customer testimonials -->
+
+    <section class="testimonials">
+        <h2>Customer Testimonials</h2>
+        <blockquote>
+            "CricketHub helped me find the perfect bat, and my game has improved tremendously!"<br>
+            <strong>- Ravi Shastri</strong>
+        </blockquote>
+        <blockquote>
+            "The coaching sessions were fantastic, and I feel more confident on the field."<br>
+            <strong>- Sachin Tendulkar</strong>
+        </blockquote>
+        <blockquote>
+            "I love the gear I got from CricketHub. Top quality and fast delivery!"<br>
+            <strong>- Alastair Cook</strong>
+        </blockquote>
+    </section>
+
+
+    <!-- 10.Contact form used as hyperlink -->
+
+    <!-- 11.media -->
+    <h3>Related Video:</h3>
+    <video id="vdo" src="/video/Virat Kohli hammers bowlers in Adelaide nets - cricket.com.au (1080p50, h264, youtube).mp4" controls autoplay muted
+   width="300" height="200"></video>
+   
+   
+
+
+   <!-- 12.styling already done -->
+
+   <!-- 13
+    footer -->
+    <footer>
+        <p>&copy; 2024 CricketHUB</p>
+    </footer>
+
+
+
+
+
+
+
+
+    
+    
+
+    
+
+
+</body>
+</html>

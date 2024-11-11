@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loginform</title>
+    <style>
+        /* Styling for the Login Form */
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Styling for the Login Form */
+.login-form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    
+}
+
+.login-form h2 {
+    text-align: center;
+    color: #333;
+}
+
+.login-form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form input[type="tel"],
+.login-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.login-form input[type="checkbox"],
+.login-form input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+    </style>
+</head>
+<body>
+   <!-- Login Form Section -->
+<section class="login-form">
+    <h2>Login to CricketHub</h2>
+    <form action="#" method="POST">
+        <!-- Username -->
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Mobile Number -->
+        <label for="mobile">Mobile Number:</label>
+        <input type="tel" id="mobile" name="mobile" placeholder="Enter your mobile number" pattern="[0-9]{10}" required><br><br>
+
+        <!-- Remember Me Checkbox -->
+        <label for="remember-me">
+            <input type="checkbox" id="remember-me" name="remember-me">
+            Remember me
+        </label><br><br>
+
+        <!-- User Type (Radio Buttons) -->
+        <label>User Type:</label><br>
+        <input type="radio" id="player" name="user-type" value="player" checked>
+        <label for="player">Player</label><br>
+        <input type="radio" id="coach" name="user-type" value="coach">
+        <label for="coach">Coach</label><br><br>
+
+        <!-- Country Selection (Dropdown) -->
+        <label for="country">Country:</label>
+        <select id="country" name="country">
+            <option value="india">India</option>
+            <option value="australia">Australia</option>
+            <option value="south-africa">South Africa</option>
+            <option value="england">England</option>
+            <option value="pakistan">Pakistan</option>
+        </select><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Login">
+    </form>
+</section>
+
+</body>
+</html>
